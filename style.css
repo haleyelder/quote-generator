@@ -1,0 +1,44 @@
+* {
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+#quote {
+	padding: 20px;
+	
+}
+
+.click {
+	margin-top: 20px;
+}
+
+.box {
+	margin: 20px auto;
+	width: 500px;
+	color: black;
+	background-color: lightgray;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#button {
+	border: 1px solid black;
+	padding: 10px;
+	font-weight: 600;
+}
+
+#click-to-tweet {
+	padding: 10px;
+	border: none;
+	background-color: navy;
+	color: white;
+	line-height: 20px;
+}
+
+img {
+	margin-top: 20px;
+	border-radius: 50%;
+	height: 350px;
+	width: 350px;
+	
+}
