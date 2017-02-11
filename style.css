@@ -5,7 +5,6 @@
 
 #quote {
 	padding: 20px;
-	
 }
 
 .click {
@@ -14,10 +13,8 @@
 
 .box {
 	margin: 20px auto;
-	width: 500px;
 	color: black;
 	background-color: lightgray;
-	padding: 5px;
 	border-radius: 10px;
 }
 
@@ -25,6 +22,10 @@
 	border: 1px solid black;
 	padding: 10px;
 	font-weight: 600;
+
+}
+.click {
+	padding: 20px;
 }
 
 #click-to-tweet {
@@ -33,6 +34,8 @@
 	background-color: navy;
 	color: white;
 	line-height: 20px;
+	width: 50%;
+	float: right;
 }
 
 img {
@@ -40,5 +43,18 @@ img {
 	border-radius: 50%;
 	height: 350px;
 	width: 350px;
-	
+}
+
+@media screen and (max-width: 575px) {
+	#button {
+		width: 50%;
+		float:left;
+		font-size: 12px;
+	}
+	#click-to-tweet {
+		width: 50%;
+		float:left;
+		font-size: 12px;
+		line-height: 19px;
+	}
 }
