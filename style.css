@@ -3,8 +3,17 @@
 	font-family: Arial, sans-serif;
 }
 
+body {
+	background-color:#3B5323;
+}
+
+h2,h3,h4 {
+	color: #fff;
+}
+
 #quote {
-	padding: 20px;
+	margin: 10px 20px;
+	padding: 0 20px 30px 0;
 }
 
 .click {
@@ -14,16 +23,19 @@
 .box {
 	margin: 20px auto;
 	color: black;
-	background-color: lightgray;
+	background-color: #4A7023;
 	border-radius: 10px;
+	border: 3px solid #fff;
 }
-
+button {
+	width: 50%;
+}
 #button {
 	border: 1px solid black;
-	padding: 10px;
+	padding: 9px;
 	font-weight: 600;
-
 }
+
 .click {
 	padding: 20px;
 }
@@ -39,22 +51,25 @@
 }
 
 img {
-	margin-top: 20px;
+	margin: 10px auto;
 	border-radius: 50%;
 	height: 350px;
 	width: 350px;
 }
 
-@media screen and (max-width: 575px) {
+@media (max-width: 435px) {
 	#button {
-		width: 50%;
+		width: 100%;
 		float:left;
 		font-size: 12px;
 	}
 	#click-to-tweet {
-		width: 50%;
+		width: 100%;
 		float:left;
 		font-size: 12px;
 		line-height: 19px;
+	}
+	#quote {
+		padding: 65px 25px 25px;
 	}
 }
